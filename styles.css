@@ -1,0 +1,29 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin:0 auto;
+    padding: 0 30px;
+    width:960px;
+}
+
+.svg-icon{
+    width:14px;
+    height:22px;
+}
+
+.sm-svg-icon{
+    width:20px;
+    height:20px;
+    background-color:#eee;
+    border:1px solid #eee;
+    padding:2px;
+    border-radius:100%;
+}
