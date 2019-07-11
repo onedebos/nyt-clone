@@ -218,3 +218,108 @@ height:10px;
 .paragraph-div{
     width:960px;
 }
+
+.inflation-theory-section{
+    /*position: relative;
+    text-align: center;*/
+    /* display: flex; */
+    margin:0 auto;
+    width:1200px;
+}
+
+.paragraph-div{
+    display: flex;
+}
+
+.inflation-theory-section img{
+    width:960px;
+}
+
+
+#p1 {
+  position: absolute;
+  top: 230px;
+  left: -4px;
+  width: 220px;
+}
+
+
+#p2 {
+  position: absolute;
+  top: 230px;
+  left: 250px;
+  width: 220px;
+}
+
+#p3 {
+  position: absolute;
+  top: 230px;
+  left: 500px;
+/*  right: 162px;
+*/  width: 220px;
+}
+
+#p4 {
+/*  right: -2px;
+*/left: 750px;
+  top: 230px;
+  width: 220px;
+}
+
+#p5 {
+  top: 520px;
+  left: -4px;
+  width: 220px;
+}
+
+#p6 {
+  top: 520px;
+  left: 250px;
+  width: 220px;
+}
+
+#p7 {
+  top: 520px;
+    left: 500px;
+  width: 220px;
+}
+
+#p8 {
+/*  right: -3px;
+*/  left: 750px;
+    top: 520px;
+  width: 220px;
+}
+
+.p-class{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
+    overflow: hidden;
+  }
+
+.text-on-img {
+  display: block;
+  position: relative;
+  /* overflow: hidden; */
+  width: 960px;
+  margin: 0 auto;
+}
+
+.inflation-img{
+    position: relative;
+    height: auto;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.content-title{
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
