@@ -18,6 +18,10 @@ body{
     width:14px;
     height:22px;
 }
+.svg-icon-footer{
+    width: 15px;
+    height: 15px;
+}
 
 .inflation-p{
     color:#666;
@@ -333,6 +337,13 @@ height:10px;
 .nyt-svg-icon{
     width:184px;
     height:41px;
+}
+.go-home-link{
+    text-decoration: none;
+    color:#666;
+    font-size:12px;
+    float: right;
+    margin-top: 10px;
 }
 
 footer{
