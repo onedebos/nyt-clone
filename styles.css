@@ -19,6 +19,11 @@ body{
     height:22px;
 }
 
+.inflation-p{
+    color:#666;
+    font-size:15px;
+}
+
 .sm-svg-icon{
     width:20px;
     height:20px;
@@ -231,6 +236,10 @@ height:10px;
     display: flex;
 }
 
+.inflation-theory{
+    font-size:18px;
+}
+
 
 
 #p1 {
@@ -319,4 +328,35 @@ height:10px;
   letter-spacing: .05em;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.nyt-svg-icon{
+    width:184px;
+    height:41px;
+}
+
+footer{
+    border-top:1px solid black;
+    margin-left:100px;
+    margin-right:100px;
+}
+.footer-items{
+    display:flex;
+    justify-content: space-between;
+}
+
+footer ul li{
+    list-style: none;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px
+}
+
+footer ul a{
+    text-decoration: none;
+    color:black;
+
 }
