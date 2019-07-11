@@ -99,12 +99,33 @@ body{
     display: block;
     width:960px;
 }
+.main-article-icons{
+    display: flex;
+/*    justify-content: space-between;
+*/}
+.icon-class{
+    justify-content: flex-end;
+/*    align-items: flex-end;
+*/
+}
+.main-article-p{
+    margin-left: 150px;
+    margin-top: 20px;
+}
 .inflation-theory-section{
     /*position: relative;
     text-align: center;*/
     /* display: flex; */
     margin:0 auto;
     max-width:960px;
+}
+.main-article-aside{
+    width: 300px;
+    height: 300px;
+
+}
+.paragraph-div{
+    display: flex;
 }
 
 .inflation-theory-section img{
