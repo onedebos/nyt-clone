@@ -223,7 +223,7 @@ height:10px;
     /*position: relative;
     text-align: center;*/
     /* display: flex; */
-    margin:0 auto;
+    margin:30px auto;
     width:1200px;
 }
 
@@ -231,9 +231,6 @@ height:10px;
     display: flex;
 }
 
-.inflation-theory-section img{
-    width:960px;
-}
 
 
 #p1 {
