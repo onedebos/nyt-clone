@@ -118,7 +118,7 @@ body{
     text-align: center;*/
     /* display: flex; */
     margin:0 auto;
-    max-width:960px;
+    width:1200px;
 }
 .main-article-aside{
     width: 300px;
@@ -132,6 +132,81 @@ body{
 .inflation-theory-section img{
     width:960px;
 }
+
+.p-class{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+  overflow: hidden;
+}
+
+#p1 {
+  position: absolute;
+  top: 230px;
+  left: -4px;
+  width: 220px;
+}
+
+
+#p2 {
+  position: absolute;
+  top: 230px;
+  left: 250px;
+  width: 220px;
+}
+
+#p3 {
+  position: absolute;
+  top: 230px;
+  left: 500px;
+/*  right: 162px;
+*/  width: 220px;
+}
+
+#p4 {
+/*  right: -2px;
+*/left: 750px;
+  top: 230px;
+  width: 220px;
+}
+
+#p5 {
+  top: 520px;
+  left: -4px;
+  width: 220px;
+}
+
+#p6 {
+  top: 520px;
+  left: 250px;
+  width: 220px;
+}
+
+#p7 {
+  top: 520px;
+    left: 500px;
+  width: 220px;
+}
+
+#p8 {
+/*  right: -3px;
+*/  left: 750px;
+    top: 520px;
+  width: 220px;
+}
+
+.main-article-aside{
+    width: 300px;
+    height: 300px;
+
+}
+.paragraph-div{
+    display: flex;
+}
+
 .main-article-h3{
 font-family: Arial;
 }
@@ -191,12 +266,13 @@ height:263px;
 
 .cosmos-sidebar-container div li{
     list-style:none;
-
+}
 .text-on-img {
   display: block;
   position: relative;
   /* overflow: hidden; */
-  width: 720px;
+  width: 960px;
+  margin: 0 auto;
 }
 
 .inflation-img{
@@ -214,37 +290,7 @@ height:263px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.p-class{
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  line-height: 17px;
-  font-weight: 300;
-  color: #000000;
-  overflow: hidden;
-}
 
-#p1 {
-  position: absolute;
-  top: 180px;
-  left: -4px;
-  width: 190px;
-}
-
-
-#p2 {
-  position: absolute;
-  top: 180px;
-  left: 190px;
-  width: 175px;
-}
-
-#p3 {
-  position: absolute;
-  top: 180px;
-  right: 162px;
-  width: 180px;
-}
 .cosmos-contain-flex{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -252,38 +298,4 @@ height:263px;
     grid-template-areas: 
         "space-cosmos"
         "cosmos-sidebar"
-}
-  
-#p4 {
-  right: -2px;
-  top: 180px;
-  width: 190px;
-}
-
-#p5 {
-  top: 380px;
-  left: -4px;
-  width: 148px;
-}
-
-#p6 {
-  top: 380px;
-  left: 143px;
-  width: 152px;
-}
-
-#p7 {
-  top: 380px;
-  right: 152px;
-  width: 145px;
-}
-
-#p8 {
-  right: -3px;
-  top: 380px;
-  width: 151px;
-}
-
-.the-universe-div{
-
 }
