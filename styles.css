@@ -40,7 +40,7 @@ body{
 
 .nav-bar{
     display: flex;
-
+background-color:#fff; 
     margin-bottom:5px;
 }
 
@@ -116,9 +116,8 @@ margin:0 auto;
 }
 .main-article-icons{
     display: flex;
-    
-/*    justify-content: space-between;
-*/}
+}
+
 .icon-class{
     float: right;
 /*    align-items: flex-end;
