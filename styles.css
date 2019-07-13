@@ -35,11 +35,17 @@ body{
     border:1px solid #eee;
     padding:2px;
     border-radius:100%;
+    margin-right:10px;
 }
 
 .nav-bar{
     display: flex;
+
     margin-bottom:5px;
+}
+
+.nyt-logo-navbar{
+margin:0 auto;
 }
 
 .fa-search,.fa-bars{
@@ -202,10 +208,10 @@ height:263px;
 }
 
 .cosmos-sidebar{
-    width:440px;
+    width:290px;
     float:right;
     margin-top:50px;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 .cosmos-sidebar-container div li{
@@ -370,4 +376,33 @@ footer ul a{
     text-decoration: none;
     color:black;
 
+}
+
+.linksy{
+    text-decoration: none;
+    color:black;
+}
+
+.comments-div{
+    text-align:center;
+    margin-left: 380px;
+}
+
+.read-btn{
+    cursor: pointer;
+    margin-right:40px;
+    margin-left: 0px;
+    padding: 11px 70px 8px 70px;
+    border-radius:3px;
+    background-color: #6288a5;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comments-icons{
+    margin-left:100px;
+    margin-top:5px;
 }
