@@ -18,6 +18,15 @@ body{
     width:14px;
     height:22px;
 }
+.svg-icon-footer{
+    width: 15px;
+    height: 15px;
+}
+
+.inflation-p{
+    color:#666;
+    font-size:15px;
+}
 
 .sm-svg-icon{
     width:20px;
@@ -26,11 +35,17 @@ body{
     border:1px solid #eee;
     padding:2px;
     border-radius:100%;
+    margin-right:10px;
 }
 
 .nav-bar{
     display: flex;
+background-color:#fff; 
     margin-bottom:5px;
+}
+
+.nyt-logo-navbar{
+margin:0 auto;
 }
 
 .fa-search,.fa-bars{
@@ -101,9 +116,8 @@ body{
 }
 .main-article-icons{
     display: flex;
-    
-/*    justify-content: space-between;
-*/}
+}
+
 .icon-class{
     float: right;
 /*    align-items: flex-end;
@@ -193,10 +207,10 @@ height:263px;
 }
 
 .cosmos-sidebar{
-    width:440px;
+    width:290px;
     float:right;
     margin-top:50px;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 .cosmos-sidebar-container div li{
@@ -229,6 +243,10 @@ height:10px;
 
 .paragraph-div{
     display: flex;
+}
+
+.inflation-theory{
+    font-size:18px;
 }
 
 
@@ -319,4 +337,78 @@ height:10px;
   letter-spacing: .05em;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.nyt-svg-icon{
+    width:184px;
+    height:41px;
+}
+.go-home-link{
+    text-decoration: none;
+    color:#666;
+    font-size:12px;
+    float: right;
+    margin-top: 10px;
+}
+
+footer{
+    border-top:1px solid black;
+    margin-left:100px;
+    margin-right:100px;
+}
+.footer-items{
+    display:flex;
+    justify-content: space-between;
+}
+
+footer ul li{
+    list-style: none;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px
+}
+
+footer ul a{
+    text-decoration: none;
+    color:black;
+
+}
+
+.linksy{
+    text-decoration: none;
+    color:black;
+}
+
+.comments-div{
+    text-align:center;
+    margin-left: 380px;
+}
+
+.read-btn{
+    cursor: pointer;
+    margin-right:40px;
+    margin-left: 0px;
+    padding: 11px 70px 8px 70px;
+    border-radius:3px;
+    background-color: #6288a5;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comments-icons{
+    margin-left:100px;
+    margin-top:5px;
+}
+
+.subscribe-section{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
