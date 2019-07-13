@@ -42,6 +42,10 @@ body{
     display: flex;
 background-color:#fff; 
     margin-bottom:5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .nyt-logo-navbar{
@@ -111,7 +115,7 @@ margin:0 auto;
 
 .main-article {
     margin:0 auto;
-    /* display: block; */
+
     width:960px;
 }
 .main-article-icons{
@@ -120,8 +124,7 @@ margin:0 auto;
 
 .icon-class{
     float: right;
-/*    align-items: flex-end;
-*/
+
 }
 .main-article-p{
     margin-left: 150px;
@@ -129,9 +132,7 @@ margin:0 auto;
     text-align:justify;
 }
 .inflation-theory-section{
-    /*position: relative;
-    text-align: center;*/
-    /* display: flex; */
+
     margin:0 auto;
     max-width:960px;
 }
@@ -181,7 +182,7 @@ height:263px;
 .most-popular{
     border-top:1px solid black;
     border-bottom: 1px solid #ccc;
-    /* padding-left:20px; */
+    
 }
 
 .most-popular h3{
@@ -234,9 +235,7 @@ height:10px;
 }
 
 .inflation-theory-section{
-    /*position: relative;
-    text-align: center;*/
-    /* display: flex; */
+
     margin:30px auto;
     width:1200px;
 }
@@ -270,13 +269,11 @@ height:10px;
   position: absolute;
   top: 230px;
   left: 500px;
-/*  right: 162px;
-*/  width: 220px;
+  width: 220px;
 }
 
 #p4 {
-/*  right: -2px;
-*/left: 750px;
+    left: 750px;
   top: 230px;
   width: 220px;
 }
@@ -300,8 +297,7 @@ height:10px;
 }
 
 #p8 {
-/*  right: -3px;
-*/  left: 750px;
+      left: 750px;
     top: 520px;
   width: 220px;
 }
@@ -319,7 +315,6 @@ height:10px;
 .text-on-img {
   display: block;
   position: relative;
-  /* overflow: hidden; */
   width: 960px;
   margin: 0 auto;
 }
