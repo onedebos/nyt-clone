@@ -1,6 +1,6 @@
-a{
+a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 *,
@@ -240,8 +240,8 @@ body {
     font-size: 1.1875rem;
     line-height: 1.4375rem;
 }
-.
-.aside-editors-picks,
+
+. .aside-editors-picks,
 .main-article-aside {
     float: right;
 
@@ -375,15 +375,16 @@ footer {
     margin-right: 100px;
 }
 
-.footer-flex{
+.footer-flex {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
 
 .footer-items {
-/*    display: flex;
-*/    justify-content: space-between;
+    /*    display: flex;
+*/
+    justify-content: space-between;
 }
 
 footer ul li {
@@ -440,36 +441,40 @@ footer ul a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.copyright{
-    border-top:1px solid rgb(235, 235, 235);
-    padding-bottom:15px;
-    padding-left:200px;
-    padding-right:200px;
+.copyright {
+    border-top: 1px solid rgb(235, 235, 235);
+    padding-bottom: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-.copyright ul{
+.copyright ul {
     display: flex;
     align-items: center;
 }
-.nyt-company{
-    margin-right:50px;
-    width:190px;
-}
-.copyright ul li{
-    padding:10px 0px;
-    white-space: nowrap;
-    font-size:10px;
-    margin-right:20px;
-    font-family: Arial, Helvetica, sans-serif;
-   
-}
-.footer-items h3{
-    margin-bottom:10px; 
-}
-.subscribe-section li{
-    width: 170px;
-}
-.copyright ul li a{
-    color:rgb(153, 153, 153);
+
+.nyt-company {
+    margin-right: 50px;
+    width: 190px;
 }
 
+.copyright ul li {
+    padding: 10px 0px;
+    white-space: nowrap;
+    font-size: 10px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer-items h3 {
+    margin-bottom: 10px;
+}
+
+.subscribe-section li {
+    width: 170px;
+}
+
+.copyright ul li a {
+    color: rgb(153, 153, 153);
+}
